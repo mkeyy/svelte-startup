@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+// -----------------------------------------------------------------------------
+// This file contains imports of global styling.
+// -----------------------------------------------------------------------------
+
+/** Import settings */
+@import "./settings.scss";
+
+/** Import base */
+@import "base/typography";
+@import "base/default";
+
+/** Import parts */
+@import "parts/buttons";
+@import "parts/svg";

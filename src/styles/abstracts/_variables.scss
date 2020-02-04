@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains style variables.
+// -----------------------------------------------------------------------------
+
+/** Theme colors */
+$c-black: #000;
+$c-white: #fff;
+
+$c-primary: $c-white;
+$c-secondary: $c-black;
+$c-font: $c-black;
+
+/**
+ * Container's maximum width
+ * @type Length
+ */
+$site-width: 1440px;
+
+/** Theme Fonts */
+$f-basic: 'Lato', sans-serif;
+$f-fancy: 'Russo One', sans-serif;
+
+/**
+ * Grid breakpoints
+
+ * Define the minimum dimensions at which your layout will change,
+ * adapting to different screen sizes, for use in media queries.
+ */
+$media-xs: 576px;
+$media-sm: 768px;
+$media-md: 992px;
+$media-lg: 1200px;
+$media-xl: 1460px;

@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+/**
+ * Event wrapper
+ * @author Harry Roberts
+ * @param {Bool} $self [false] - Whether or not to include current selector
+ * @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+ */
+@mixin ivn-on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/* Sets width and height */
+@mixin ivn-size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+/** Basic stuff for pseudo elements */
+@mixin ivn-pseudo($display: block, $position: absolute, $content: '') {
+  content: $content;
+  display: $display;
+  position: $position;
+}
