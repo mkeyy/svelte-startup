@@ -1852,9 +1852,9 @@ svelte-preprocess@^3.4.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.0.0:
-  version "3.18.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.18.1.tgz#db0f82cc46394ca8c9a9d183995e1ebfeea3bdd0"
+svelte@^3.49.0:
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
 
 tar@^2.0.0:
   version "2.2.2"
